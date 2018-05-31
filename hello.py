@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
+import myname
 
-print('Hello World & GIT')
+name = myname.get_name()
+print('Hello World & GIT from {}'.format(name))
